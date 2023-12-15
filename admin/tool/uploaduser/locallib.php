@@ -425,10 +425,6 @@ function uu_allowed_roles_cache(?int $categoryid = null, ?int $courseid = null):
 function uu_allowed_sysroles_cache() {
     // todo: change sys to module context_system::instance
     $allowedroles = get_assignable_roles(context_module::instance(1), ROLENAME_SHORT);
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    var_dump($allowedroles);
     $rolecache = [];
     foreach ($allowedroles as $rid => $rname) {
         $rolecache[$rid] = new stdClass();

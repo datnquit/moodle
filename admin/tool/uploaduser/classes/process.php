@@ -1108,7 +1108,6 @@ class process {
                     } else {
                         $removing = false;
                     }
-                    var_dump($sysrolename, $column, $this->sysrolecache);
                     if (array_key_exists($sysrolename, $this->sysrolecache)) {
                         $sysroleid = $this->sysrolecache[$sysrolename]->id;
                     } else {
