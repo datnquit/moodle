@@ -2434,7 +2434,9 @@ function send_headers($contenttype, $cacheable = true) {
 
     // The Moodle app must be allowed to embed content always.
     if (empty($CFG->allowframembedding) && !core_useragent::is_moodle_app()) {
-        @header('X-Frame-Options: sameorigin');
+        // todo: open iframe
+        @header('X-Frame-Options: ALLOWALL');
+//        @header('X-Frame-Options: sameorigin');
     }
 
     // If referrer policy is set, add a referrer header.
