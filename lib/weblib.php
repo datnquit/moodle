@@ -2435,7 +2435,7 @@ function send_headers($contenttype, $cacheable = true) {
     // The Moodle app must be allowed to embed content always.
     if (empty($CFG->allowframembedding) && !core_useragent::is_moodle_app()) {
         // todo: open iframe
-        @header('X-Frame-Options: ALLOWALL');
+        @header('X-Frame-Options: ALLOW-FROM https://mightyid.ca');
 //        @header('X-Frame-Options: sameorigin');
     }
 
