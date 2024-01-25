@@ -872,9 +872,8 @@
 
 .dashboard_main_content {
   max-width: 100%;
-  padding-left: 300px;
   padding-left: 280px;
-  padding-right: 0px;
+  padding-right: 0;
   position: relative;
 }
 .dashboard_main_content .btn-secondary, .dashboard_main_content .btn:not(.btn-link) {
@@ -888,7 +887,6 @@
   background-color: #686c6e;
   border-width: 1.5px !important;
   border-color: #686c6e;
-  color: #fff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   text-decoration: none;
@@ -1416,7 +1414,6 @@ button, input {
     display: none;
   }
   .dashboard_main_content {
-    padding-left: 0;
     padding-left: 0;
     padding-right: 0;
   }
