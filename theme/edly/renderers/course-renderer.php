@@ -299,8 +299,8 @@ class theme_edly_core_course_renderer extends core_course_renderer {
                                 $contenttext .= '
                                 <div class="price">'.get_config('theme_edly', 'site_currency') .''.$edlyCourse->course_price.'</div>';
                             }else{
-                                $contenttext .= '
-                                <div class="price">'.get_config('theme_edly', 'free_course_price') .'</div>';
+//                                $contenttext .= '
+//                                <div class="price">'.get_config('theme_edly', 'free_course_price') .'</div>';
                             } $contenttext .= '
                         </div>
 
