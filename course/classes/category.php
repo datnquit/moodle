@@ -2681,9 +2681,13 @@ class core_course_category implements renderable, cacheable_object, IteratorAggr
             $path = preg_split('|/|', $baselist[$id]['path'], -1, PREG_SPLIT_NO_EMPTY);
             if (!$excludeid || !in_array($excludeid, $path)) {
                 $namechunks = array();
-                foreach ($path as $parentid) {
+                foreach ($path as $key => $parentid) {
                     if (array_key_exists($parentid, $baselist) && $baselist[$parentid]['name'] !== false) {
-                        $namechunks[] = $baselist[$parentid]['name'];
+                        if ($key == count($path) - 1) {
+                            $namechunks[] = $baselist[$parentid]['name'];
+                        } else {
+                            $namechunks[] = '--';
+                        }
                     }
                 }
                 $names[$id] = join($separator, $namechunks);
