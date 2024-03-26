@@ -1,4 +1,0 @@
-
-Œphp:S100"lRename function "local_webhookdata_get_course_callback" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¢éœûÿÿÿÿÿ8†ÊÚòå1
-php:S100""gRename function "local_webhookdata_get_modulename" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(’‰¡p8†ÊÚòå1
-K	php:S6600"/Remove the parentheses from this "return" call.(¢ÃŞŸ8†ÊÚòå1

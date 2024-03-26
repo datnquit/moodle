@@ -1,7 +1,0 @@
-
-sphp:S101"YRename class "quiz_create_noti_task" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(Шх•8юўсуе1
-G	php:S1481O"+Remove this unused "$error" local variable.(Й®ѕБ8≤ётуе1
-V	php:S6600/"5Remove the parentheses from this "require_once" call.(е≥ЃЪщ€€€€8€ўсуе1
-Q	php:S66000"5Remove the parentheses from this "require_once" call.(√оСѕ8€ўсуе1
-r	php:S4833/"QReplace "require_once" with namespace import mechanism through the "use" keyword.(е≥ЃЪщ€€€€8€ўсуе1
-m	php:S48330"QReplace "require_once" with namespace import mechanism through the "use" keyword.(√оСѕ8€ўсуе1

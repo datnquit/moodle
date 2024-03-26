@@ -1,7 +1,0 @@
-
-}php:S101"bRename class "assignment_submitted_noti_task" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ñè×¸8ó¥×Âç1
-G	php:S1481K"+Remove this unused "$error" local variable.(‰¨Ï8ó¥×Âç1
-V	php:S6600/"5Remove the parentheses from this "require_once" call.(å³®šùÿÿÿÿ8ó¥×Âç1
-Q	php:S66000"5Remove the parentheses from this "require_once" call.(Ãî‘Ï8ó¥×Âç1
-r	php:S4833/"QReplace "require_once" with namespace import mechanism through the "use" keyword.(å³®šùÿÿÿÿ8ó¥×Âç1
-m	php:S48330"QReplace "require_once" with namespace import mechanism through the "use" keyword.(Ãî‘Ï8ó¥×Âç1
