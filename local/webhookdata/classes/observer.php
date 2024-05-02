@@ -48,9 +48,7 @@ class local_webhookdata_observer {
                 $task = \local_webhookdata\task\quiz_create_noti_task::instance($eventdata);
                 break;
             default:
-                var_dump($modulename);
-                die();
-                break;
+                return;
         }
 
         \core\task\manager::queue_adhoc_task($task, true);
