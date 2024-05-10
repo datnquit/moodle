@@ -49,7 +49,7 @@ function local_catdup_duplicate($origin, $destination, $USER, $extension, $oldex
         try {
             local_catdup_duplicate_course($course->id,
                                             $course->fullname,
-                                            $course->shortname . $extension,
+                                            $course->shortname,
                                             $destination,
                                             $oldextension,
                                             $extension,
@@ -121,7 +121,7 @@ function local_catdup_duplicate_course($courseid, $fullname, $shortname, $catego
 
     $data = new \stdClass();
     $data->category = $categoryid;
-    $data->shortname = $shortname;
+    $data->shortname = $shortname.$extension;
     $data->fullname = $fullname;
     $data->visible = $visible;
 
@@ -149,16 +149,17 @@ function local_catdup_duplicate_course($courseid, $fullname, $shortname, $catego
                 die;
             }
         }
-
         $controller->execute_plan();
 
         // Rename fullname and shortname.
-        $torename = $DB->get_record('course', ['id' => $destcourse]);
-        $newfullname = preg_replace("/(\w+) copy (\d+)/", '$1', $torename->fullname);
-        $newfullname = str_replace($oldextension, $extension, $newfullname);
+//        $newfullname = preg_replace("/(\w+) copy (\d+)/", '$1', $torename->fullname);
+        $newfullname = str_replace($oldextension, $extension, $fullname);
         $record = new \stdClass();
         $record->id = $destcourse;
         $record->fullname = $newfullname;
+        if (strpos($shortname, $oldextension) >= 0) {
+            $record->shortname = str_replace($oldextension, $extension, $shortname);
+        }
         $renamed = $DB->update_record('course', $record);
         rebuild_course_cache($destcourse);
         $file->delete();
