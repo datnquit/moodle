@@ -3,6 +3,7 @@ require_once('../../config.php');
 require_once($CFG->dirroot.'/user/lib.php');
 require_once($CFG->libdir.'/gdlib.php');
 global $DB;
+header('Content-Type: application/json; charset=utf-8');
 
 if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
     $body = file_get_contents('php://input');

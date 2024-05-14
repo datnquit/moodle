@@ -2,7 +2,7 @@
 require_once('../../config.php');
 require_once($CFG->dirroot.'/user/lib.php');
 global $DB;
-
+header('Content-Type: application/json; charset=utf-8');
 if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
     $body = file_get_contents('php://input');
     $body = json_decode($body, true);
@@ -34,6 +34,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
             'country' => 'VN',
             'timezone' => 'Asia/Ho_Chi_Minh',
             'idnumber' => $body['_id'],
+            'mnethostid' => 1,
         ];
         if (count($arrName) == 1) {
             $user['firstname'] = $body['name'];
@@ -51,8 +52,8 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         if ($teacher) {
             role_assign($teacher->id, $result_insert, $contextsys);
         }
-        $result = core_user::get_user($result_insert);
-        echo json_encode([ 'data' => $result->id]);
+//        $result = core_user::get_user($result_insert);
+        echo json_encode([ 'data' => $result_insert]);
         return;
     }
 }
