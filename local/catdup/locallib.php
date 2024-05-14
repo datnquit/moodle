@@ -26,13 +26,13 @@ defined('MOODLE_INTERNAL') || die();
 
 function local_catdup_get_courses($catid) {
     global $DB;
-    $courses = $DB->get_records($CFG->prefix . 'course', [ 'category' => $catid ]);
+    $courses = $DB->get_records('course', [ 'category' => $catid ]);
     return $courses;
 }
 
 function local_catdup_get_categories($catid) {
     global $DB;
-    $categories = $DB->get_records($CFG->prefix . 'course_categories', [ 'parent' => $catid ]);
+    $categories = $DB->get_records('course_categories', [ 'parent' => $catid ]);
     return $categories;
 }
 
@@ -157,8 +157,10 @@ function local_catdup_duplicate_course($courseid, $fullname, $shortname, $catego
         $record = new \stdClass();
         $record->id = $destcourse;
         $record->fullname = $newfullname;
-        if (strpos($shortname, $oldextension) >= 0) {
+        if (str_contains($shortname, $oldextension)) {
             $record->shortname = str_replace($oldextension, $extension, $shortname);
+        } else {
+            $record->shortname = $shortname.$extension;
         }
         $renamed = $DB->update_record('course', $record);
         rebuild_course_cache($destcourse);
