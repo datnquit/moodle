@@ -47,7 +47,6 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         $result_insert = user_create_user($user);
 
         $contextsys = \context_system::instance();
-        $user = $this->getDataGenerator()->create_user();
         $teacher = $DB->get_record('role', ['shortname' => 'teacher']);
         if ($teacher) {
             role_assign($teacher->id, $result_insert, $contextsys);
