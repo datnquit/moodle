@@ -10,7 +10,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         die;
     }
 
-    $result = core_user::get_user_by_email($body['code']);
+    $result = core_user::get_user_by_username($body['code']);
 
     if ($result) {
         if ($result->idnumber != $body['_id']) {
