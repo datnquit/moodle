@@ -28,7 +28,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         }
         if (isset($body['student_ids']) && is_array($body['student_ids'])) {
             foreach ($body['student_ids'] as $student_id) {
-                $enrolplugin->enrol_user($instance, $body['teacher_id'], 5);
+                $enrolplugin->enrol_user($instance, $student_id, 5);
             }
         }
         echo json_encode($newcourse);
