@@ -66,6 +66,7 @@ function local_catdup_duplicate($origin, $destination, $USER, $extension, $oldex
         $data = new stdClass();
         $data->name = $category->name;
         $data->parent = $destination;
+        $data->idnumber = $category->id;
         echo "[catdup] Creating Category " . $category->name . " in category " . $destination . "\n";
         try {
             $newcat = core_course_category::create($data);
