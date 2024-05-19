@@ -54,7 +54,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
             }
         }
 
-        echo json_encode($users);
+        echo json_encode($course);
     }
 }
 return;

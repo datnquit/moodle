@@ -20,7 +20,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                 false,
             );
         }
-        echo json_encode([ 'data' => $result->id]);
+        echo json_encode($result->id);
         return;
     } else {
         $arrName = explode(' ', $body['name']);
@@ -51,8 +51,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         if ($teacher) {
             role_assign($teacher->id, $result_insert, $contextsys);
         }
-//        $result = core_user::get_user($result_insert);
-        echo json_encode([ 'data' => $result_insert]);
+        echo json_encode($result_insert);
         return;
     }
 }
