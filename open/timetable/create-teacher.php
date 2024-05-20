@@ -35,6 +35,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
             'timezone' => 'Asia/Ho_Chi_Minh',
             'idnumber' => $body['_id'],
             'mnethostid' => 1,
+            'confirmed' => 1,
         ];
         if (count($arrName) == 1) {
             $user['firstname'] = $body['name'];
