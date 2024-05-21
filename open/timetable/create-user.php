@@ -1,6 +1,7 @@
 <?php
 require_once('../../config.php');
 require_once($CFG->dirroot.'/user/lib.php');
+require_once($CFG->dirroot.'/course/lib.php');
 header('Content-Type: application/json; charset=utf-8');
 
 if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
@@ -19,6 +20,25 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                 false,
                 false,
             );
+        }
+        foreach ($body['shortnames'] as $shortname) {
+            $course = $DB->get_record('course', ['shortname' => $body['shortname']]);
+            if ($course) {
+                $context = context_course::instance($course->id);
+                $users = get_enrolled_users($context);
+                $check = true;
+                foreach ($users as $user) {
+                    if ($user->id == $result->id) {
+                        $check = false;
+                        break;
+                    }
+                }
+                if ($check) {
+                    $instance = $DB->get_record('enrol', ['courseid' => $course->id, 'enrol' => 'manual']);
+                    $enrolplugin = enrol_get_plugin($instance->enrol);
+                    $enrolplugin->enrol_user($instance, $result->id, 5);
+                }
+            }
         }
         echo json_encode($result->id);
         return;
@@ -46,6 +66,25 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         }
 
         $result_insert = user_create_user($user);
+        foreach ($body['shortnames'] as $shortname) {
+            $course = $DB->get_record('course', ['shortname' => $body['shortname']]);
+            if ($course) {
+                $context = context_course::instance($course->id);
+                $users = get_enrolled_users($context);
+                $check = true;
+                foreach ($users as $user) {
+                    if ($user->id == $result_insert) {
+                        $check = false;
+                        break;
+                    }
+                }
+                if ($check) {
+                    $instance = $DB->get_record('enrol', ['courseid' => $course->id, 'enrol' => 'manual']);
+                    $enrolplugin = enrol_get_plugin($instance->enrol);
+                    $enrolplugin->enrol_user($instance, $result_insert, 5);
+                }
+            }
+        }
         echo json_encode($result_insert);
         return;
     }
