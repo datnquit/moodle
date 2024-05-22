@@ -13,7 +13,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
         die;
     }
     $course = $DB->get_record('course', ['shortname' => $body['shortname']]);
-    $user = core_user::get_user_by_username($body['student_id']);
+    $user = core_user::get_user($body['student_id']);
     if ($course && $user) {
         $USER = $user;
         $ru = new gradereport_user\external\user();
