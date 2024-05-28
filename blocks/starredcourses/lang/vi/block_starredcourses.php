@@ -15,14 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Starred courses block language strings.
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @package   block_starredcourses
+ * @copyright 2018 Simey Lameze <simey@moodle.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['displaycategories'] = 'Hiển thị các danh mục';
+$string['displaycategories_help'] = 'Hiển thị danh mục khóa học trên các mục khối khóa học được đánh dấu sao.';
+$string['pluginname'] = 'Các khóa học được đánh dấu sao';
+$string['privacy:metadata'] = 'Khối các khóa học được đánh dấu sao không lưu trữ bất kỳ dữ liệu cá nhân nào.';
+$string['starredcourses:myaddinstance'] = 'Thêm một khối khóa học được đánh dấu sao mới vào Bảng điều khiển';
+$string['nocourses'] = 'Không có khóa học được đánh dấu sao';

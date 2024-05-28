@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,14 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_comments', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_comments
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['comments:myaddinstance'] = 'Thêm một khối bình luận mới vào Bảng điều khiển';
+$string['comments:addinstance'] = 'Thêm một khối bình luận mới';
+$string['pluginname'] = 'Bình luận';
+$string['privacy:metadata:core_comment'] = 'Một bản ghi của các bình luận đã được thêm.';

@@ -15,14 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'moodle', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   core
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['comment'] = 'Bình luận';
+$string['commenter'] = 'Người bình luận';
+$string['comments'] = 'Bình luận';
+$string['commentsubcontext'] = 'Bình luận';
+$string['privacy:metadata:comment'] = 'Lưu trữ các bình luận của người dùng.';
+$string['privacy:metadata:comment:content'] = 'Lưu trữ nội dung của bình luận.';
+$string['privacy:metadata:comment:timecreated'] = 'Thời gian bình luận được tạo.';
+$string['privacy:metadata:comment:userid'] = 'Người dùng đã thực hiện bình luận.';

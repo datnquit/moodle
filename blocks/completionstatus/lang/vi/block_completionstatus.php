@@ -15,14 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_completionstatus', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_completionstatus
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['completionprogressdetails'] = 'Chi tiết tiến độ hoàn thành';
+$string['completionstatus:addinstance'] = 'Thêm một khối trạng thái hoàn thành khóa học mới';
+$string['criteriagroup'] = 'Nhóm tiêu chí';
+$string['firstofsecond'] = '{$a->first} trong số {$a->second}';
+$string['pluginname'] = 'Trạng thái hoàn thành khóa học';
+$string['requirement'] = 'Yêu cầu';
+$string['returntocourse'] = 'Quay lại khóa học';
+$string['privacy:metadata'] = 'Khối Trạng thái hoàn thành khóa học chỉ hiển thị thông tin về hoàn thành khóa học và không lưu trữ bất kỳ dữ liệu nào riêng của nó.';

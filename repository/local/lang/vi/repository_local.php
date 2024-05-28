@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,14 +16,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'repository_local', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   repository_local
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['configplugin'] = 'Cấu hình kho lưu trữ tệp máy chủ';
+$string['currentusefiles'] = 'Các tệp hiện đang sử dụng';
+$string['emptyfilelist'] = 'Không có tệp để hiển thị';
+$string['local:view'] = 'Xem kho lưu trữ máy chủ';
+$string['notitle'] = 'không có tiêu đề';
+$string['remember'] = 'Ghi nhớ tôi';
+$string['pluginname_help'] = 'Các tệp trước đó đã được tải lên máy chủ Moodle';
+$string['pluginname'] = 'Tệp máy chủ';
+$string['privacy:metadata'] = 'Plugin kho lưu trữ tệp máy chủ không lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào.';

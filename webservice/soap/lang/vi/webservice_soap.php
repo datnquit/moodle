@@ -14,15 +14,16 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'webservice_soap', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    webservice_soap
+ * @category   string
+ * @copyright  2010 Petr Skodak
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Giao thức SOAP';
+$string['privacy:metadata'] = 'Plugin giao thức SOAP không lưu trữ bất kỳ dữ liệu cá nhân nào.';
+$string['soap:use'] = 'Sử dụng giao thức SOAP';

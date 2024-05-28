@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,14 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_mentees', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_mentees
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['configtitle'] = 'Tiêu đề khối Mentees';
+$string['configtitleblankhides'] = 'Tiêu đề khối Mentees (không có tiêu đề nếu trống)';
+$string['mentees:addinstance'] = 'Thêm một khối mentees mới';
+$string['mentees:myaddinstance'] = 'Thêm một khối mentees mới vào Bảng điều khiển';
+$string['newmenteesblock'] = '(khối Mentees mới)';
+$string['pluginname'] = 'Mentees';
+$string['privacy:metadata'] = 'Khối Mentees chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';

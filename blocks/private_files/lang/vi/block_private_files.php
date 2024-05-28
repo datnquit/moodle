@@ -15,14 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_private_files', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_private_files
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Tập tin riêng tư';
+$string['privatefiles'] = 'Tập tin riêng tư';
+$string['private_files:addinstance'] = 'Thêm một khối tập tin riêng tư mới';
+$string['private_files:myaddinstance'] = 'Thêm một khối tập tin riêng tư mới vào Bảng điều khiển';
+$string['privacy:metadata'] = 'Khối Tập tin riêng tư chỉ cung cấp một cái nhìn và một liên kết đến các tập tin riêng tư của người dùng.';

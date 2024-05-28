@@ -15,14 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for the quizaccess_numattempts plugin.
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    quizaccess
+ * @subpackage numattempts
+ * @copyright  2011 The Open University
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['attemptsallowedn'] = 'Số lần thử lại được phép: {$a}';
+$string['pluginname'] = 'Quy tắc truy cập bài kiểm tra số lần thử lại';
+$string['privacy:metadata'] = 'Plugin Quy tắc truy cập bài kiểm tra số lần thử lại không lưu trữ bất kỳ dữ liệu cá nhân nào.';

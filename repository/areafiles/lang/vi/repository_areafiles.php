@@ -15,14 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'repository_areafiles'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @package   repository_areafiles
+ * @copyright 2013 Marina Glancy
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['areafiles:view'] = 'Xem kho lưu trữ Tệp nhúng';
+$string['configplugin'] = 'Cấu hình cho kho lưu trữ Tệp nhúng';
+$string['pluginname_help'] = 'Các tệp được nhúng trong trình soạn thảo văn bản hiện tại';
+$string['pluginname'] = 'Tệp nhúng';
+$string['privacy:metadata'] = 'Plugin kho lưu trữ Tệp nhúng không lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào.';

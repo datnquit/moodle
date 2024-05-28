@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'datapreset_proposals', language 'en'.
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @package   datapreset_proposals
+ * @copyright 2022 Sara Arjona <sara@moodle.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['modulename'] = 'Đề xuất';
+$string['modulename_help'] = 'Sử dụng mẫu này để thu thập các đề xuất cho các chủ đề, nghiên cứu, dự án, v.v. Các trường bao gồm trạng thái như đã phê duyệt, bị từ chối, cần sửa đổi hoặc đang chờ xử lý.';
+$string['pluginname'] = 'Đề xuất';
+$string['privacy:metadata'] = 'Plugin Đề xuất không lưu trữ bất kỳ dữ liệu cá nhân nào.';

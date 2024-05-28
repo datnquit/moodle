@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_news_items', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_news_items
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['news_items:addinstance'] = 'Thêm một khối thông báo mới nhất';
+$string['news_items:myaddinstance'] = 'Thêm một khối thông báo mới nhất vào Bảng điều khiển';
+$string['pluginname'] = 'Thông báo mới nhất';
+$string['privacy:metadata'] = 'Khối Thông báo mới nhất chỉ hiển thị dữ liệu được lưu trữ trong diễn đàn và không lưu trữ dữ liệu.';

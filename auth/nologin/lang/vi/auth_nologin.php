@@ -15,14 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'auth_nologin', language 'en'.
  *
- * @package   block_blog_tags
+ * @package   auth_nologin
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['auth_nologindescription'] = 'Plugin phụ trợ ngăn người dùng đăng nhập vào hệ thống và cũng loại bỏ bất kỳ email nào được gửi đến người dùng. Có thể được sử dụng để <em>đình chỉ</em> các tài khoản người dùng.';
+$string['pluginname'] = 'Không đăng nhập';
+$string['privacy:metadata'] = 'Plugin xác thực Không đăng nhập không lưu trữ bất kỳ dữ liệu cá nhân nào.';

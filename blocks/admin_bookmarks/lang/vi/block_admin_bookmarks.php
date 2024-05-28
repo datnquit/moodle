@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_admin_bookmarks', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_admin_bookmarks
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['admin_bookmarks:addinstance'] = 'Thêm một khối đánh dấu quản trị mới';
+$string['admin_bookmarks:myaddinstance'] = 'Thêm một khối đánh dấu quản trị mới vào Bảng điều khiển';
+$string['pluginname'] = 'Đánh dấu quản trị';
+$string['privacy:metadata'] = 'Khối Đánh dấu quản trị chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';

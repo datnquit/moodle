@@ -15,14 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'profilefield_menu', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   profilefield_menu
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Drop-down menu';
+$string['privacy:metadata:profilefield_menu:userid'] = 'ID của người dùng mà dữ liệu được lưu trữ bởi trường hồ sơ người dùng menu thả xuống';
+$string['privacy:metadata:profilefield_menu:fieldid'] = 'ID của trường hồ sơ';
+$string['privacy:metadata:profilefield_menu:data'] = 'Dữ liệu người dùng trường hồ sơ người dùng menu thả xuống';
+$string['privacy:metadata:profilefield_menu:dataformat'] = 'Định dạng của dữ liệu người dùng trường hồ sơ người dùng menu thả xuống';
+$string['privacy:metadata:profilefield_menu:tableexplanation'] = 'Dữ liệu hồ sơ bổ sung';

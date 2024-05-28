@@ -15,14 +15,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
- *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * Customfield checkbox plugin
+ * @package   customfield_checkbox
+ * @copyright 2018 Toni Barbera <toni@moodle.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+defined('MOODLE_INTERNAL') || die();
+
+$string['checkedbydefault'] = 'Được chọn mặc định';
+$string['errorconfigunique'] = 'Trường ô kiểm không thể được xác định là duy nhất.';
+$string['pluginname'] = 'Ô kiểm';
+$string['privacy:metadata'] = 'Trình cắm loại trường ô kiểm không lưu trữ bất kỳ dữ liệu cá nhân nào; nó sử dụng các bảng được xác định trong core.';
+$string['specificsettings'] = 'Cài đặt trường ô kiểm cụ thể';

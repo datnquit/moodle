@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'block_search_forums', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
+ * @package   block_search_forums
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['advancedsearch'] = 'Tìm kiếm nâng cao';
+$string['pluginname'] = 'Tìm kiếm diễn đàn';
+$string['search_forums:addinstance'] = 'Thêm một khối tìm kiếm diễn đàn mới';
+$string['privacy:metadata'] = 'Khối tìm kiếm diễn đàn chỉ hiển thị dữ liệu được lưu trữ tại các vị trí khác.';

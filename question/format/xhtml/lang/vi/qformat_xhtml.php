@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'qformat_xhtml', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    qformat_xhtml
+ * @copyright  2010 Helen Foster
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Định dạng XHTML';
+$string['pluginname_help'] = 'Định dạng XHTML cho phép xuất tất cả các câu hỏi trong danh mục sang một trang XHTML nghiêm ngặt để có thể sử dụng trong một ứng dụng khác.';
+$string['pluginname_link'] = 'qformat/xhtml';
+$string['privacy:metadata'] = 'Plugin định dạng câu hỏi XHTML không lưu trữ bất kỳ dữ liệu cá nhân nào.';

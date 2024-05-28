@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,14 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * This file contains language strings used in the settings navigation block
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @since Moodle 2.0
+ * @package block_settings
+ * @copyright 2009 Sam Hemelryk
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['enabledock'] = 'Cho phép người dùng cài đặt khối này vào bảng điều khiển';
+$string['pluginname'] = 'Quản trị';
+$string['settings:addinstance'] = 'Thêm một khối quản trị mới';
+$string['settings:myaddinstance'] = 'Thêm một khối quản trị mới vào Bảng điều khiển';
+$string['privacy:metadata'] = 'Khối quản trị chỉ hiển thị dữ liệu được lưu trữ tại các vị trí khác.';

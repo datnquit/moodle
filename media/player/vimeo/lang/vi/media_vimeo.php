@@ -15,14 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for plugin 'media_vimeo'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @package   media_vimeo
+ * @copyright 2016 Marina Glancy
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Vimeo';
+$string['pluginname_help'] = 'Trang web chia sẻ video vimeo.com.';
+$string['privacy:metadata'] = 'Plugin phương tiện Vimeo không lưu trữ bất kỳ dữ liệu cá nhân nào.';
+$string['donottrack'] = 'Bật không theo dõi liên kết Vimeo';
+$string['donottrack_desc'] = 'Nếu được bật, trình phát sẽ không theo dõi bất kỳ dữ liệu phiên nào, bao gồm tất cả cookie và phân tích.';

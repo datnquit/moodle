@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'qformat_multianswer', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    qformat_multianswer
+ * @copyright  2010 Helen Foster
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['pluginname'] = 'Câu trả lời nhúng (Cloze)';
+$string['pluginname_help'] = 'Định dạng câu trả lời nhúng (Cloze) cho phép nhập một đoạn văn bản có các câu hỏi như trắc nghiệm và trả lời ngắn được nhúng bên trong.';
+$string['pluginname_link'] = 'question/type/multianswer';
+$string['privacy:metadata'] = 'Plugin câu hỏi nhúng không lưu trữ bất kỳ dữ liệu cá nhân nào.';

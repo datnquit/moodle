@@ -15,14 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_blog_tags', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for plugin 'contenttype_h5p'
  *
- * @package   block_blog_tags
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @package    contenttype_h5p
+ * @copyright  2020 Amaia Anabitarte <amaia@moodle.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blog_tags:addinstance'] = 'Thêm một khối thẻ blog mới';
-$string['pluginname'] = 'Thẻ blog';
-$string['configtitle'] = 'Tiêu đề khối thẻ blog';
-$string['privacy:metadata'] = 'Khối Thẻ blog chỉ hiển thị dữ liệu được lưu trữ ở các vị trí khác.';
+$string['description'] = 'Nội dung tương tác H5P';
+$string['pluginname'] = 'H5P';
+$string['pluginname_help'] = 'Ngân hàng nội dung để tải lên và chia sẻ nội dung H5P';
+$string['privacy:metadata'] = 'Plugin ngân hàng nội dung H5P không lưu trữ bất kỳ dữ liệu cá nhân nào.';
+$string['h5p:access'] = 'Truy cập nội dung H5P trong ngân hàng nội dung';
+$string['h5p:upload'] = 'Tải lên nội dung H5P mới';
+$string['h5p:useeditor'] = 'Tạo hoặc chỉnh sửa nội dung bằng trình chỉnh sửa H5P';
