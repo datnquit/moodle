@@ -107,9 +107,9 @@ class user_filtering {
             '',
             null,
             true,
-//            [
-//                'mform_isexpanded_id_newfilter' => 0,
-//            ],
+            $_SERVER['REQUEST_METHOD'] == 'POST' ? null : [
+                'mform_isexpanded_id_newfilter' => 0,
+            ],
         );
         if ($adddata = $this->_addform->get_data()) {
             // Clear previous filters.
